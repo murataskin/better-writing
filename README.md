@@ -6,7 +6,7 @@ An agent skill for prose that sounds clear, specific, and human.
 
 [![Agent Skill](https://img.shields.io/badge/agent%20skill-better--writing-2563eb?style=for-the-badge)](./SKILL.md)
 [![License: MIT](https://img.shields.io/badge/license-MIT-111827?style=for-the-badge)](./LICENSE)
-[![skills.sh](https://skills.sh/b/forjd/better-writing)](https://skills.sh/forjd/better-writing)
+[![skills.sh](https://skills.sh/b/murataskin/better-writing)](https://skills.sh/murataskin/better-writing)
 
 </div>
 
@@ -86,34 +86,43 @@ The [skills.sh CLI](https://www.skills.sh/docs/cli) is the easiest way to instal
 With `npx`:
 
 ```bash
-npx skills add forjd/better-writing
+npx skills add murataskin/better-writing
+```
+
+With `pnpm`:
+
+```bash
+pnpm dlx skills add murataskin/better-writing
 ```
 
 With `bunx`:
 
 ```bash
-bunx skills add forjd/better-writing
+bunx skills add murataskin/better-writing
 ```
 
 You can also install from the full GitHub URL:
 
 ```bash
-npx skills add https://github.com/forjd/better-writing
-bunx skills add https://github.com/forjd/better-writing
+npx skills add https://github.com/murataskin/better-writing
+pnpm dlx skills add https://github.com/murataskin/better-writing
+bunx skills add https://github.com/murataskin/better-writing
 ```
 
 For local development, install from this checkout:
 
 ```bash
 npx skills add /path/to/better-writing
+pnpm dlx skills add /path/to/better-writing
 bunx skills add /path/to/better-writing
 ```
 
 The CLI collects anonymous install telemetry by default. To opt out:
 
 ```bash
-DISABLE_TELEMETRY=1 npx skills add forjd/better-writing
-DISABLE_TELEMETRY=1 bunx skills add forjd/better-writing
+DISABLE_TELEMETRY=1 npx skills add murataskin/better-writing
+DISABLE_TELEMETRY=1 pnpm dlx skills add murataskin/better-writing
+DISABLE_TELEMETRY=1 bunx skills add murataskin/better-writing
 ```
 
 You can also copy the folder into your agent skills directory if your agent runtime supports local skill discovery.
